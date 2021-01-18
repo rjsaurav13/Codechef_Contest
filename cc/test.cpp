@@ -1,17 +1,19 @@
-#include<iostream>
-#include<bits/stdc++.h>
+#include <iostream>
 using namespace std;
-int main(){
-        int num1,num2=0,rem;
-        cin>>num1;
-        while(num1!=0){
 
-            rem=num1%10;
-            num2=num2*10+rem;
-            num1=num1/10;
-        }
-        cout<<num2<<"\n";
-
-return 0;
+int main() {
+	int tcase;
+	cin>>tcase;
+	for(int i=0;i<tcase;i++){
+	    int len;
+	    cin>>len;
+	    int arr[len];
+	    for(int j=0;j<len;j++){
+	        cin>>arr[j];
+	    }
+	    for(int k=len-1;k>=0;k--){
+	        cout<<arr[k]<<" ";
+	    }
+	}
+	return 0;
 }
-
