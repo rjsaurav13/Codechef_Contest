@@ -1,22 +1,25 @@
 #include <iostream>
+#include <bits/stdc++.h>
+
 using namespace std;
 
-int main() {
+int main()
+{
     int tcase;
     cin>>tcase;
     for(int i=0;i<tcase;i++){
         int num,fact=1;
         cin>>num;
-    if(num==1&&num==0){
+        if(num==1&&num==0){
             cout<<"1\n";
     }
-    else{
+    else
         for(int j=1;j<=num;++j){
-            fact*=j;
+            fact=fact*j;
         }
-    }
-        cout<<fact<<"\n";
 
+        cout<<fact<<"\n";
     }
+
 	return 0;
 }
