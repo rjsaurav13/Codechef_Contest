@@ -1,0 +1,1 @@
+{"name":"Local: T20MCH","url":"d:\\3rd Sem\\Codeechef_Contest\\T20MCH.cpp","tests":[{"id":1616928193989,"input":"719 18 648","output":"YES"},{"id":1616928213410,"input":"720 18 648","output":"NO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\3rd Sem\\Codeechef_Contest\\T20MCH.cpp","group":"local","local":true}
